@@ -1,0 +1,68 @@
+#price .bg-primary{
+    background: #c300ff !important;
+}
+#price .text-primary{
+  color: #c300ff !important;
+}
+#price .btn-primary{
+    background: #c300ff !important;
+    border: none;
+  }
+  #price .btn-primary:hover{
+    background: #8804b1 !important;
+    border: none;
+  }
+.card-pricing.popular {
+    z-index: 1;
+    border: 3px solid #c300ff;
+}
+.card-pricing .list-unstyled li {
+    padding: .5rem 0;
+    color: #6c757d;
+}
+
+#price .btn-outline-secondary:hover{
+    background: #d168f1;
+    transition: all .4s ease-in;
+    border: 1px #c300ff solid;
+}
+
+
+#price h3 {
+    font-family: sans-serif;
+    margin: 100px auto;
+    color: #393a39;
+    text-align: center;
+    font-size: 30px;
+    max-width: 600px;
+    position: relative;
+  }
+  #price h3:before {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 3px;
+    background: #3b0b37;
+    left: 100px;
+    top: 50%;
+    position: absolute;
+  }
+  #price h3:after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 3px;
+    background:  #3b0b37;
+    right: 100px;
+    top: 50%;
+    position: absolute;
+  }
+
+  @media only screen and (max-width: 600px){
+    #price h3:before{
+left: 0;
+    }
+    #price h3:after {
+        right: 0;
+    }
+  }
